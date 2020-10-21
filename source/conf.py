@@ -20,14 +20,14 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'Aqueduct'
+project = 'aqueduct'
 copyright = '2020, Johannes Rauch'
 author = 'Johannes Rauch'
 
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
-release = '04.09.2020'
+release = '20.10.2020'
 
 
 # -- General configuration ---------------------------------------------------
@@ -40,7 +40,7 @@ release = '04.09.2020'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-        "sphinx_rtd_theme",
+        'sphinx_rtd_theme',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -90,6 +90,8 @@ html_theme = 'sphinx_rtd_theme'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+html_logo = "./_static/images/aqueduct_logo_200.png"
+
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
 #
@@ -104,7 +106,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Aqueductdoc'
+htmlhelp_basename = 'aqueductdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -131,7 +133,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Aqueduct.tex', 'Aqueduct Documentation',
+    (master_doc, 'aqueduct.tex', 'Aqueduct Documentation',
      'Johannes Rauch', 'manual'),
 ]
 
@@ -152,7 +154,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Aqueduct', 'Aqueduct Documentation',
-     author, 'Aqueduct', 'One line description of project.',
+    (master_doc, 'aqueduct', 'Aqueduct Documentation',
+     author, 'aqueduct', 'One line description of project.',
      'Miscellaneous'),
 ]

@@ -1,20 +1,25 @@
-.. Aqueduct documentation master file, created by
-   sphinx-quickstart on Fri Sep  4 02:43:14 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
 
-Welcome to Aqueduct's documentation!
-====================================
+
+Welcome to Aqueducts documentation!
+=====================================
+
+.. image:: ./_static/images/aqueduct_splash.png
+   :width: 600
+
+Aqueduct is a blender addon that strives to make the appending/linking and saving
+of 3D assets to an Asset Library fast and comfortable. It features a custom context
+menu (shown below) for when you drop .blend-files  on the viewport and the ability
+to save Materials, Objects and Collections to their own files and render preview
+thumbnails automatically.
+
+.. image:: ./_static/images/bl_gui_ddmenu.png
+
+**A video showing the most important features can be found here:**
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   getting_started 
+   pie_menu
+   global_preferences
