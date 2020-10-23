@@ -31,5 +31,6 @@ release soon.
    :caption: Contents:
 
    getting_started 
+   drag_drop
    pie_menu
    global_preferences
