@@ -3,16 +3,23 @@
 Welcome to Aqueduct's documentation!
 =====================================
 
-.. image:: ./_static/images/aqueduct_splash.png
-   :width: 600
+.. raw:: html
 
+    <div class="iframe-container">
+        <iframe width="1080" height="667" src="https://www.youtube.com/embed/nV353pijQUo" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+.. .. image:: ./_static/images/aqueduct_splash.png
+..    :width: 600
+
+
+About Aqueduct
+--------------
 Aqueduct is a blender addon that strives to make the appending/linking and saving
 of 3D assets to an Asset Library fast and comfortable. It features a custom context
 menu (shown below) for when you drop .blend-files  on the viewport and the ability
 to save Materials, Objects and Collections to their own files and render preview
 thumbnails automatically.
-
-**A video showing the most important features can be found here:**
 
 Aqueducts goal is to enable the usage of an external 3D Asset and Material library
 Manager in conjunction with blender. Alternatively you can simply use your systems
@@ -24,7 +31,6 @@ stage but hopefully will be stable and feature complete enough for its first
 release soon.
 
 .. image:: ./_static/images/aqueduct_desktop_preview.png
-
 
 .. toctree::
    :maxdepth: 2

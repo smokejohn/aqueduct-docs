@@ -19,9 +19,7 @@ on the left to specify which objects you want to append.
 
 .. image:: ./_static/images/bl_gui_ad_floater_append_object.png
 
-Currently the appended objects will have the same position in the world space
-as in the dropped file. We are working on positioning the objects around the
-3D Cursor.
+The appended objects will position themselves around blenders 3D Cursor.
 
 Append Material
 ===============
@@ -44,6 +42,4 @@ on the left to specify which collections you want to append.
 
 .. image:: ./_static/images/bl_gui_ad_floater_append_collection.png
 
-Currently the appended collections will have the same position in the world space
-as in the dropped file. We are working on position the collections objects around
-the 3D Cursor.
+The appended objects will position themselves around blenders 3D Cursor.
