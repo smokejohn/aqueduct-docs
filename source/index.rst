@@ -15,6 +15,8 @@ Welcome to Aqueduct's documentation!
 
 About Aqueduct
 --------------
+.. image:: ./_static/images/aqueduct_overview_1200x600.png
+    :width: 600
 Aqueduct is a blender addon that strives to make the appending/linking and saving
 of 3D assets to an Asset Library fast and comfortable. It features a custom context
 menu (shown below) for when you drop .blend-files  on the viewport and the ability
