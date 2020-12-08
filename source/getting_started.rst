@@ -20,7 +20,7 @@ After activating the Aqueduct addon you can open it's Pie Menu by pressing
 **Hotkey: Ctrl + Shift + A**. The Pie menu contains multiple tools to improve
 your workflow. Some Object placement and Material distribution tools and 
 operators to save Materials, Objects and Collections to their own files.
-A detailed explanation of all the operators can be found on the xxx page.
+A detailed explanation of all the operators can be found on the :doc:`pie_menu` page.
 
 .. image:: ./_static/images/bl_gui_aqueduct_pie.png
 
